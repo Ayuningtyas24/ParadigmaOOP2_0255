@@ -28,3 +28,10 @@ public:
         cout << "Pesan dari Lia" << endl;
     }
 };
+
+int main()
+{
+    seseorang *obyek;
+    joko a;
+    Lia b;
+}

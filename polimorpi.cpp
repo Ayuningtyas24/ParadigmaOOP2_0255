@@ -34,4 +34,13 @@ int main()
     seseorang *obyek;
     joko a;
     Lia b;
+
+    obyek = &a;
+    obyek->pesan();
+    obyek = &b;
+    obyek->pesan();
+    // a.seseorang::pesan();
+    // b.seseorang::pesan();
+
+    return 0;
 }
